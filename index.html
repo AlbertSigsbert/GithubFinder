@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Github Finder</title>
+</head>
+<body>
+    <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+              <div class="flex items-center justify-center md:justify-start h-16">
+                <a href="#" class="text-gray-200 font-semibold text-xl md:text-2xl">Github Finder</a>
+              </div>
+            </div>         
+      </nav>
+
+       <!-- Card -->
+<div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
+	<div class="relative py-3 sm:max-w-xl sm:mx-auto">
+		<div
+			class="absolute inset-0 bg-gradient-to-r from-blue-300 to-blue-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
+		</div>
+		<div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+			<div class="max-w-md mx-auto">
+		
+					<div class="text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
+						<div class="relative">
+                            <h1 class="text-2xl font-semibold">Search Github Users</h1>
+							<p class="pt-1 pb-6 text-sm">Enter a username to search github profile info and repositories.</p>
+                            <input id="user-input" class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker" id="username" type="text" placeholder="Github Username...">
+						</div>
+						
+					</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+      <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8"> 
+        <div class="flex items-center justify-center h-16 mt-5">
+            <a href="#" class="text-gray-200 font-semibold">Github Finder &copy; 2021.</a>
+        </div>
+        </div>         
+          
+         
+      </footer>
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
