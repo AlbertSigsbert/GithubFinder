@@ -16,28 +16,43 @@
             </div>         
       </nav>
 
-       <!-- Card -->
-<div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
-	<div class="relative py-3 sm:max-w-xl sm:mx-auto">
-		<div
-			class="absolute inset-0 bg-gradient-to-r from-blue-300 to-blue-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
-		</div>
-		<div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-			<div class="max-w-md mx-auto">
-		
-					<div class="text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
-						<div class="relative">
-                            <h1 class="text-2xl font-semibold">Search Github Users</h1>
-							<p class="pt-1 pb-6 text-sm">Enter a username to search github profile info and repositories.</p>
-                            <input id="user-input" class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker" id="username" type="text" placeholder="Github Username...">
-						</div>
-						
-					</div>
-				
-			</div>
-		</div>
-	</div>
-</div>
+    <div class="wrapper">
+      <div class="grid grid-cols-1 md:grid-cols-2 min-h-screen place-items-center">
+  
+        <!-- Card -->
+       
+        <div class=" flex flex-col justify-center">
+          <div class="p-4 md:p-8 max-w-md sm:max-w-xl sm:mx-auto">
+            <div class="p-10 shadow-xl bg-gray-300 rounded-xl ">
+            
+                  <div class="text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
+                    <div class="relative">
+                      <h1 class="text-2xl font-semibold">Search Github Users</h1>
+                      <p class="pt-1 pb-6 text-sm">Enter a username to search github profile info and repositories.</p>
+                      <input id="user-input" class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker focus:outline-none focus:ring focus:border-gray-300" id="username" type="text" placeholder="Github Username...">
+                    </div>
+                    
+                  </div>
+            </div>
+          </div>
+          
+        </div>
+       
+      
+        <div>
+          <div id="profile" class="px-4">
+           
+          </div>
+
+          <div id="repos">
+           
+          </div>
+        </div> 
+        
+           
+     
+      </div>
+    </div>
       <footer class="bg-gray-800">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8"> 
         <div class="flex items-center justify-center h-16 mt-5">
