@@ -8,7 +8,7 @@ This is a web application that allow searching of Github Users
 - Display error messages
 
 ### Preview
-![BookList Demo](img/BookList.gif)
+![BookList Demo](img/github.gif)
 
 ### Screenshot
 
