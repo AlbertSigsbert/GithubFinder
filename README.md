@@ -14,12 +14,12 @@ This is a web application that allow searching of Github Users
 
             This is a desktop View.
 
-<img src="img/book-list-desktop.png">
+<img src="img/github-finder-desktop.png">
 
              This is for mobile view.
 
 <p align="center">
-   <img src="img/book-list-mobile.png" height="500px">
+   <img src="img/github-finder-mobile.png" height="500px">
   </p>
   
 ### Links
