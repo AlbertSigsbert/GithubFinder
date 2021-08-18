@@ -24,8 +24,8 @@ This is a web application that allow searching of Github Users
   
 ### Links
 
-- [Live Site URL](https://albert-book-list.netlify.app/)
-- [Youtube](https://youtu.be/jr60ddkaWqY)
+- [Live Site URL](https://am-github-finder.netlify.app/)
+- [Youtube](https://youtu.be/OMJ3GEldf5E)
 
 ### Built with
 
